@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #2dc18c, #20ab7e, #15956f, #0a8061, #026b52);
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: rgba(255, 255, 255);
+    text-shadow: 2px 3px 0px #898999;
+}
+
+header p{
+    font-size: 16px;
+    font-weight: 900;
+    color: rgba(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-list{
+    width: 400px;
+    border-left: 1px solid rgba(255, 255, 255, 0.815);
+    border-radius: 10px;
+    background-color: rgba(189, 189, 189, 0.329);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-list-btn{
+    display: flex;
+    align-items: center;
+}
+
+.container-list-btn button{
+    margin: 10px;
+    margin-top: 25px;
+    height: 40px;
+}
+
+.container-btn{
+    margin-top: 15px;
+}
+
+#lista-tarefas li{
+    background-color: rgba(128, 128, 128, 0.185);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    color: rgba(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+#texto-tarefa{
+    width: 300px;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: rgba(255, 255, 255);
+    color: rgba(0, 0, 0);
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 1px 0px 7px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 0px rgba(134,129,129,.75);
+}
+
+#texto-tarefa:focus {
+    outline:none;
+}
+
+.btn_green {
+    width: 186px;
+	background-color:#44c767;
+	border-radius:25px;
+	border:1px solid #18ab29;
+	cursor:pointer;
+	color: rgba(255, 255, 255);
+	font-size:16.5px;
+	padding:10px;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.btn_green:hover {
+	background-color:#5cbf2a;
+}
+
+.btn_red {
+    width: 186px;
+    background-color:#c74444;
+	border-radius:25px;
+	border:1px solid #ab1818;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:16.5px;
+	padding:10px;
+	text-shadow:0px 1px 0px #662727;
+}
+
+.btn_red:hover {
+	background-color:#bf2a2a;
+}
+
+.btn_move_up{
+    background-image: url(/001-seta-para-cima.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+}
+.btn_move_down{
+    background-image: url(/002-seta-para-baixo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+}
